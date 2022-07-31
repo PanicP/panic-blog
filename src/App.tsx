@@ -1,7 +1,8 @@
+import LayoutHeader from 'components/layouts/Header'
 import React from 'react'
 
 function App() {
-    return <div>test test</div>
+    return <LayoutHeader />
 }
 
 export default App
