@@ -1,4 +1,4 @@
-import LayoutHeader from 'components/layouts/Header'
+import LayoutHeader from 'components/layouts/Header/Header'
 import React from 'react'
 
 function App() {
