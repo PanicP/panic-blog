@@ -1,5 +1,6 @@
 import { Outlet, ReactLocation, Router } from '@tanstack/react-location'
 import LayoutHeader from 'components/layouts/Header/Header'
+import Homepage from 'components/pages/Homepage'
 import React from 'react'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <Router
             location={location}
             routes={[
-                { path: '/', element: <div /> }, // home
+                { path: '/', element: <Homepage /> }, // home
                 {
                     path: 'blogs',
                     children: [
