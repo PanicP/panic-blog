@@ -7,7 +7,10 @@ const HeaderWithDetail = ({ header, details }: tHeaderWithDetail) => {
             <div>{header}</div>
             <div>
                 {details.map((detail) => (
-                    <div>{detail}</div>
+                    <div>
+                        <span />
+                        <span>{detail}</span>
+                    </div>
                 ))}
             </div>
         </StyledHeaderWithDetail>

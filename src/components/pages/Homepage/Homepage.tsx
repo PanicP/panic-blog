@@ -15,6 +15,25 @@ const Homepage = () => {
                 {/* detail  */}
                 <StyledDetailContainer>
                     <HeaderWithDetail header={'Thunthian Pornmuneewong'} details={['im average', 'gamers']} />
+                    <HeaderWithDetail
+                        header={'Professional Experience'}
+                        details={[
+                            'Satang Corporation',
+                            'Hive Ventures',
+                            'Appman',
+                            'Fillgoods',
+                            'Kingpower Click',
+                            'Bangkok Bank',
+                        ]}
+                    />
+                    <HeaderWithDetail
+                        header={'More about me'}
+                        details={[
+                            'Rhythm games enjoyer',
+                            'Doggos are friend (Most of animals are fine)',
+                            'Passionate about astrology (Everything beyond our sky is awesome.)',
+                        ]}
+                    />
                 </StyledDetailContainer>
             </StyledBodyContainer>
         </StyledHomepage>
