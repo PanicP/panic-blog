@@ -1,6 +1,6 @@
 import { Outlet, ReactLocation, Router } from '@tanstack/react-location'
 import LayoutHeader from 'components/layouts/Header/Header'
-import Homepage from 'components/pages/Homepage'
+import Homepage from 'components/pages/Homepage/Homepage'
 import React from 'react'
 
 function App() {
